@@ -1,11 +1,10 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ajaxspin/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "ajaxspin"
-  gem.version       = Ajaxspin::VERSION
+  gem.version       = "0.0.3"
   gem.authors       = ["Carlos Alexandro Becker"]
   gem.email         = ["caarlos0@gmail.com"]
   gem.description   = %q{A simple ajax status spin indicator build on top of spin.js}

@@ -1,7 +1,7 @@
 # Ajaxspin
 
-A simples ajax status indicator spin build with coffeescript, using spin.js
-at background, compatible with turbolinks and jquery/jquery_ujs events.
+A simple asset gem that provide an out-of-the box ajax status spin indicator
+compatible with turbolinks and jquery/jquery_ujs events without any modification.
 
 ## Installation
 

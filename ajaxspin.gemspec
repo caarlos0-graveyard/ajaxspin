@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Ajaxspin::VERSION
   gem.authors       = ["Carlos Alexandro Becker"]
   gem.email         = ["caarlos0@gmail.com"]
-  gem.description   = %q{A simple ajax status indicator spin build on top of spin.js}
-  gem.summary       = %q{A simples ajax status indicator spin build with coffeescript, using spin.js at background, compatible with turbolinks and jquery events.}
+  gem.description   = %q{A simple ajax status spin indicator build on top of spin.js}
+  gem.summary       = %q{A simple asset gem that provide an out-of-the box ajax status spin indicator compatible with turbolinks and jquery/jquery_ujs events without any modification.}
   gem.homepage      = "http://github.com/caarlos0/ajaxspin"
 
   gem.files         = Dir["lib/assets/javascripts/*.js.coffee", "lib/*", "README.md"]

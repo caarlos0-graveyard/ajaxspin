@@ -13,7 +13,6 @@ $.fn.ajaxSpin = (opts) ->
     element.spin false if count == 0
 
   @each ->
-    console.log($(this))
     $e = $(this)
     $(document).on opts.showEvents, (event) ->
       loadState $e, event

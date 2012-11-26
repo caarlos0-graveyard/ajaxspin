@@ -67,3 +67,8 @@ That's all.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Links
+
+- [Building a simple and non intrusive AJAX status with CoffeeScript in RubyOnRails](http://caarlos0.github.com/posts/building-a-simple-and-non-intrusive-ajax-status-with-coffeescript-in-rubyonrails/)
+- [Rails AJAXSpin](http://caarlos0.github.com/posts/rails-ajaxspin/)

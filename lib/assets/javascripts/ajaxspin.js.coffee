@@ -2,22 +2,25 @@ $ = jQuery
 
 $.fn.ajaxSpin = (opts) ->
   opts = $.extend {}, $.fn.ajaxSpin.options, opts
+  console.log opts
   count = 0
 
-  loadState = (element, event) ->
+  loadState = (element) ->
     count++
     element.spin opts.spinjsOpts
 
-  doneState = (element, event) ->
+  doneState = (element) ->
     count--
-    element.spin false if count == 0
+    if count <= 0
+      element.spin false
+      count = 0
 
   @each ->
     $e = $(this)
-    $(document).on opts.showEvents, (event) ->
-      loadState $e, event
-    $(document).on opts.hideEvents, (event) ->
-      doneState $e, event
+    $(document).on opts.showEvents, ->
+      loadState $e
+    $(document).on opts.hideEvents, ->
+      doneState $e
 
 $.fn.ajaxSpin.options =
   spinjsOpts: undefined

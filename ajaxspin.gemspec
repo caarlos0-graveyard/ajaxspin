@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "ajaxspin"
-  gem.version       = "1.1.0"
+  gem.version       = "1.1.1"
   gem.authors       = ["Carlos Alexandro Becker"]
   gem.email         = ["caarlos0@gmail.com"]
   gem.description   = %q{A simple ajax status spin indicator build on top of spin.js}

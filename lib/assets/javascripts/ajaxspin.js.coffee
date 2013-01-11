@@ -2,7 +2,6 @@ $ = jQuery
 
 $.fn.ajaxSpin = (opts) ->
   opts = $.extend {}, $.fn.ajaxSpin.options, opts
-  console.log opts
   count = 0
 
   loadState = (element) ->
